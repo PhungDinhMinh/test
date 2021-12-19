@@ -1,0 +1,155 @@
+html,body{
+    padding: 0; 
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.member{
+    font-size: 25px;
+    font-family: cursive;
+}
+.member .img{
+    display: none;
+}
+.header{
+    background-image: url(https://scontent.fhan9-1.fna.fbcdn.net/v/t39.30808-6/246447593_397288845382951_4348115341155702683_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8631f5&_nc_ohc=G5TUL8FWTgMAX-27ZYx&_nc_ht=scontent.fhan9-1.fna&oh=00_AT8dWW-LEgMqI7M6llbYqsUc9DessMpXeLog8CCsWwCtgw&oe=61C453BF);
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 500px;
+    background-size: 250px;
+    margin: 0 auto;
+    position: relative;
+    background-position: center;
+}
+.header ul li{
+    list-style: none;
+}
+.teacher{
+    position: absolute;
+    left: 200px;
+    top: -10px;
+    font-size: 40px;
+}
+.teacher::first-letter{
+    font-size: 50px;
+    color: red;
+}
+.teacher:hover{
+    font-size: 55px;
+}
+.teacher:hover .img{
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    top: 135px;
+    left: 25px;
+}
+.coach{
+    position: absolute;
+    left: 290px;
+    top: 60px;
+    font-size: 30;
+}
+.coach:hover .img{
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    top: 65px;
+    left: -65px;
+}
+.coach:hover{
+    font-size: 45px;
+}
+.coach::first-letter{
+    font-size: 40px;
+    color: red;
+}
+.minh{
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+.minh:hover .img{
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    top: 25px;
+    left: 225px;
+}
+.oanh{
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+.oanh:hover .img{
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    top: -75px;
+    left: 225px;
+}
+.trang1{
+    position: absolute;
+    top: 300px;
+    left: 0;
+}
+.trang1:hover .img{
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    top: -175px;
+    left: 225px;
+}
+.trang2{
+    position: absolute;
+    top: 100px;
+    right:0;
+}
+.trang2:hover .img{
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    top: 25px;
+    right: 225px;
+}
+.thuy{
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+.thuy:hover .img{
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    top: -75px;
+    right: 225px;
+}
+.hieu{
+    position: absolute;
+    top: 300px;
+    right: 0;
+}
+.hieu:hover .img{
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    top: -175px;
+    right: 225px;
+}
